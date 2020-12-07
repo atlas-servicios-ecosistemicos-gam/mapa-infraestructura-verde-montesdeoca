@@ -1,5 +1,5 @@
 ---
-title: "Mapa de infraestructura verde en Montes de Oca"
+title: "Mapa de infraestructura verde del cantón de Montes de Oca"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -80,7 +80,7 @@ pal <- colorFactor(
 Row
 -----------------------------------------------------------------------
 
-### Datos para descarga: [Capa de infraestructura verde en Montes de Oca](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/montesdeoca/IV_MONTES_DE_OCA.TIF)
+### Datos para descarga: [Capa geoespacial de infraestructura verde del cantón de Montes de Oca](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/montesdeoca/IV_MONTES_DE_OCA.TIF)
 ```{r}
 
 leaflet() %>%
